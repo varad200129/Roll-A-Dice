@@ -1,0 +1,42 @@
+:root {
+  --btn: #d71e00;
+  --font_color: #fff;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button {
+  border: none;
+  font-size: xx-large;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: var(--btn);
+  color: var(--font_color);
+}
+
+.number {
+  color: var(--btn);
+  font-size: x-large;
+  font-weight: 800;
+}
+.social {
+  background-color: var(--btn);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.social a {
+  background-color: var(--font_color);
+  border-radius: 12px;
+  padding: 12px;
+  text-decoration: none;
+  color: var(--btn);
+  font-weight: 600;
+}
+.social a:hover {
+  background-color: var(--btn);
+  color: var(--font_color);
+}
+
