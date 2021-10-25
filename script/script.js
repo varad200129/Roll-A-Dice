@@ -1,20 +1,29 @@
-function roll() {
+function roll4() {
+  var x = Math.floor(Math.random() * 4 + 1);
+  document.getElementById("number").innerHTML = "You have rolled a " + x;
+}
+
+function roll6() {
   var x = Math.floor(Math.random() * 6 + 1);
   document.getElementById("number").innerHTML = "You have rolled a " + x;
-  if (x === 1) {
-    document.getElementById("imageDice").src = "images/1.png";
-  } else if (x === 2){
-    document.getElementById("imageDice").src = "images/2.png";
-  } else if (x === 3){
-    document.getElementById("imageDice").src = "images/3.png";
-  }
-  else if (x === 4){
-    document.getElementById("imageDice").src = "images/4.png";
-  }
-  else if (x === 5){
-    document.getElementById("imageDice").src = "images/5.png";
-  }
-  else if (x === 6){
-    document.getElementById("imageDice").src = "images/6.png";
-  }
+}
+
+function roll8() {
+  var x = Math.floor(Math.random() * 8 + 1);
+  document.getElementById("number").innerHTML = "You have rolled a " + x;
+}
+
+function roll10() {
+  var x = Math.floor(Math.random() * 10 + 1);
+  document.getElementById("number").innerHTML = "You have rolled a " + x;
+}
+
+function roll12() {
+  var x = Math.floor(Math.random() * 12 + 1);
+  document.getElementById("number").innerHTML = "You have rolled a " + x;
+}
+
+function roll20() {
+  var x = Math.floor(Math.random() * 20 + 1);
+  document.getElementById("number").innerHTML = "You have rolled a " + x;
 }
